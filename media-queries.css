@@ -1,0 +1,54 @@
+
+@media (max-width: 1600px){
+.project-description {
+    float: none;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-size: 1em;
+    margin: 0;
+    overflow: visible;
+    width: 100%
+}
+
+padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    display: block;
+    float: none;
+    clear: both;
+
+
+
+@media screen and (max-width: 1000px) {
+.samples .project-text {
+}
+
+@media (max-width: 1000px){
+.project-text 
+}
+
+
+
+
+/* MOBILE */
+@media screen and (max-width: 800px) {
+  iframe {
+  width: 100%;
+  height: 700px;
+  }
+}
+
+/* TABLET */
+@media screen and (min-width: 1000px) {
+  iframe {
+  width: 100%;
+  height: 400px;
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1500px) {
+  iframe {
+  width: 100%;
+  height: 700px;
+  }
+}

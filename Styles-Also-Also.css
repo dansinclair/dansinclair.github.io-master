@@ -1,0 +1,111 @@
+body {
+	width: 100%;
+}
+
+.wrapper {
+max-width: 100%;
+margin: 0 10%;
+padding: 0;
+border:0;
+display: block;
+vertical-align: baseline;
+}
+
+.samples {
+width: 100%;
+max-width: 100%;
+margin: 0 auto;
+display: block;
+
+}
+
+.project {
+display: block;
+}
+
+ .shuffle-me {
+  width: 90%;
+  margin: 2.5% auto;
+}
+
+ .shuffle-me:first-child {
+  width: 90%;
+  margin: 2.5%;
+}
+
+
+
+.project-container {
+	height: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: visible;
+}
+
+.shuffle-me {
+width: 100%;
+margin: 0;
+padding: 0;
+border: none;
+
+}
+
+.shuffle-me:first-child {
+	width: 100%;
+	float: left;
+	height: 100%;
+	border: none;
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 800px) {
+  iframe {
+  width: 65%;
+  height: 200px;
+  }
+}
+
+/* TABLET */
+@media screen and (min-width: 1000px) {
+  iframe {
+  width: 65%;
+  height: 400px;
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1500px) {
+  iframe {
+  width: 65%;
+  height: 600px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
