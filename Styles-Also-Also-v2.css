@@ -21,9 +21,8 @@ margin: 0 auto;
 display: block;
 margin-bottom: 5%;
 border-bottom: 1px solid #0000FF;
-
-
 }
+
 
 .project {
 display: block;
@@ -31,12 +30,12 @@ display: block;
 
 .three-sixty {
 display: inline;
-    height: 0;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    display: inline;
-    overflow: hidden;
+height: 0;
+margin: 0;
+padding: 0;
+position: relative;
+display: inline;
+overflow: hidden;
 }
 
 .shuffle-me {
@@ -56,6 +55,12 @@ display: inline;
 	position: relative;
 	display: block;
 	overflow: hidden;
+}
+
+.description-typography {
+  width: 450px;
+  height: 50%;
+  max-width: 100%;
 }
 
 img {
